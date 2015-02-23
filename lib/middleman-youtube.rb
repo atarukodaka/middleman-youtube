@@ -1,4 +1,4 @@
-require "middleman/youtube/version"
+require "middleman-youtube/version"
 
 module Middleman
   module Youtube
