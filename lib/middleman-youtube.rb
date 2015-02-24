@@ -1,7 +1,7 @@
-require "middleman-youtube/version"
+require 'middleman-core'
+require 'middleman-youtube/version'
 
-module Middleman
-  module Youtube
-    # Your code goes here...
-  end
+::Middleman::Extensions.register(:youtube) do
+  require 'middleman-youtube/extension'
+  ::Middleman::Youtube::Extension
 end
