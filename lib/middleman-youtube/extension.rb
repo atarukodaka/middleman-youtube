@@ -17,7 +17,7 @@ module Middleman
       end
 
       def iframe(path)
-        '<iframe width="' + width.to_s + '" height="' + height.to_s + '" src="https://www.youtube.com/embed/' + path + '" frameborder="0" allowfullscreen="true"></iframe>'
+        '<iframe width="' + width.to_s + '" height="' + height.to_s + '" src="https://www.youtube.com/embed/' + path.to_s + '" frameborder="0" allowfullscreen="true"></iframe>'
       end
 
       def width
